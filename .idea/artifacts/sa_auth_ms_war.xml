@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sa-auth-ms:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>sa-auth-ms</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="sa-auth-ms.war">
+      <element id="artifact" artifact-name="sa-auth-ms:war exploded" />
+    </root>
+  </artifact>
+</component>
